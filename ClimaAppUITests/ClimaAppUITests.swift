@@ -1,10 +1,3 @@
-//
-//  ClimaAppUITests.swift
-//  ClimaAppUITests
-//
-//  Created by Yordan Iturra Correa on 05-10-24.
-//
-
 import XCTest
 
 final class ClimaAppUITests: XCTestCase {

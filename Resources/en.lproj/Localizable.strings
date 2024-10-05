@@ -1,7 +1,14 @@
-/* 
-  Localizable.strings
-  ClimaApp
+"clear" = "Clear";
+"clouds" = "Clouds";
+"few clouds" = "Few clouds";
+"partly cloudy" = "Partly cloudy";
+"scattered clouds" = "Scattered clouds";
+"rain" = "Rain";
+"thunderstorm" = "Thunderstorm";
+"snow" = "Snow";
+"mist" = "Mist";
+"fog" = "Fog";
 
-  Created by Yordan Iturra Correa on 05-10-24.
-  
-*/
+"AddToFavorites" = "Add to favorites";
+"FavoritePlaces" = "Favorite places";
+"ErrorTitle" = "Error";

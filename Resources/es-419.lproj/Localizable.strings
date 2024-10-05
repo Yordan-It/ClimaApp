@@ -1,10 +1,14 @@
-"clear" = "Clear";
-"clouds" = "Clouds";
-"few clouds" = "Few Clouds";
-"partly cloudy" = "Partly Cloudy";
-"scattered clouds" = "Scattered Clouds";
-"rain" = "Rain";
-"thunderstorm" = "Thunderstorm";
-"snow" = "Snow";
-"mist" = "Mist";
-"fog" = "Fog";
+"clear" = "Despejado";
+"clouds" = "Nublado";
+"few clouds" = "Pocas nubes";
+"partly cloudy" = "Parcialmente nublado";
+"scattered clouds" = "Nubes dispersas";
+"rain" = "Lluvia";
+"thunderstorm" = "Tormenta eléctrica";
+"snow" = "Nieve";
+"mist" = "Niebla";
+"fog" = "Niebla";
+
+"AddToFavorites" = "Añadir a favoritos";
+"FavoritePlaces" = "Tus lugares favoritos";
+"ErrorTitle" = "Ups! Tuvimos un error";

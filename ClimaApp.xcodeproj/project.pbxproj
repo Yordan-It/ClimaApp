@@ -45,6 +45,31 @@
 			path = ClimaAppUITests;
 			sourceTree = "<group>";
 		};
+		068345DF2CB194C500BD4D0F /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		068345E02CB194CF00BD4D0F /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		068345E12CB194D700BD4D0F /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		068345E22CB194E200BD4D0F /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		068345EC2CB196D200BD4D0F /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +100,11 @@
 		068345A92CB1940C00BD4D0F = {
 			isa = PBXGroup;
 			children = (
+				068345EC2CB196D200BD4D0F /* ViewModels */,
+				068345E22CB194E200BD4D0F /* Models */,
+				068345E12CB194D700BD4D0F /* Views */,
+				068345E02CB194CF00BD4D0F /* Services */,
+				068345DF2CB194C500BD4D0F /* Resources */,
 				068345B42CB1940D00BD4D0F /* ClimaApp */,
 				068345C52CB1940E00BD4D0F /* ClimaAppTests */,
 				068345CF2CB1940E00BD4D0F /* ClimaAppUITests */,
@@ -109,6 +139,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				068345B42CB1940D00BD4D0F /* ClimaApp */,
+				068345DF2CB194C500BD4D0F /* Resources */,
+				068345E02CB194CF00BD4D0F /* Services */,
+				068345E12CB194D700BD4D0F /* Views */,
+				068345E22CB194E200BD4D0F /* Models */,
+				068345EC2CB196D200BD4D0F /* ViewModels */,
 			);
 			name = ClimaApp;
 			packageProductDependencies = (
@@ -192,6 +227,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 068345A92CB1940C00BD4D0F;
 			minimizedProjectReferenceProxies = 1;
@@ -274,6 +310,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -337,6 +374,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
