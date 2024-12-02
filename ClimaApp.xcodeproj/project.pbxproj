@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		069EE5152CFE112700FA9DC3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 069EE5142CFE111A00FA9DC3 /* .gitignore */; };
+		069EE5172CFE126F00FA9DC3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069EE5162CFE126B00FA9DC3 /* Config.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		068345C32CB1940E00BD4D0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		068345B22CB1940D00BD4D0F /* ClimaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		068345C22CB1940E00BD4D0F /* ClimaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		068345CC2CB1940E00BD4D0F /* ClimaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068345B22CB1940D00BD4D0F /* ClimaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ClimaApp.app; path = "/Users/yordan/Documents/XCodeProjects/ClimaApp/build/Debug-iphoneos/ClimaApp.app"; sourceTree = "<absolute>"; };
+		068345C22CB1940E00BD4D0F /* ClimaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ClimaAppTests.xctest; path = "/Users/yordan/Documents/XCodeProjects/ClimaApp/build/Debug-iphoneos/ClimaApp.app/PlugIns/ClimaAppTests.xctest"; sourceTree = "<absolute>"; };
+		068345CC2CB1940E00BD4D0F /* ClimaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ClimaAppUITests.xctest; path = "/Users/yordan/Documents/XCodeProjects/ClimaApp/build/Debug-iphoneos/ClimaAppUITests-Runner.app/PlugIns/ClimaAppUITests.xctest"; sourceTree = "<absolute>"; };
+		069EE5142CFE111A00FA9DC3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		069EE5162CFE126B00FA9DC3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -100,6 +107,8 @@
 		068345A92CB1940C00BD4D0F = {
 			isa = PBXGroup;
 			children = (
+				069EE5162CFE126B00FA9DC3 /* Config.swift */,
+				069EE5142CFE111A00FA9DC3 /* .gitignore */,
 				068345EC2CB196D200BD4D0F /* ViewModels */,
 				068345E22CB194E200BD4D0F /* Models */,
 				068345E12CB194D700BD4D0F /* Views */,
@@ -108,18 +117,7 @@
 				068345B42CB1940D00BD4D0F /* ClimaApp */,
 				068345C52CB1940E00BD4D0F /* ClimaAppTests */,
 				068345CF2CB1940E00BD4D0F /* ClimaAppUITests */,
-				068345B32CB1940D00BD4D0F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		068345B32CB1940D00BD4D0F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				068345B22CB1940D00BD4D0F /* ClimaApp.app */,
-				068345C22CB1940E00BD4D0F /* ClimaAppTests.xctest */,
-				068345CC2CB1940E00BD4D0F /* ClimaAppUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +230,7 @@
 			mainGroup = 068345A92CB1940C00BD4D0F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 068345B32CB1940D00BD4D0F /* Products */;
+			productRefGroup = 068345A92CB1940C00BD4D0F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -248,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069EE5152CFE112700FA9DC3 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069EE5172CFE126F00FA9DC3 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

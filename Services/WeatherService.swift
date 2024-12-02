@@ -4,7 +4,7 @@ import Combine
 /// A service that fetches weather data for a given city using the OpenWeatherMap API.
 class WeatherService {
     /// The API key used for accessing the OpenWeatherMap API.
-    private let apiKey = "d0459cc3ebd0891e83b2df1b9e771c6d"
+    private let apiKey = Config.apiKey
     
     /// A cache for storing weather data to avoid unnecessary network requests.
     private var cache = NSCache<NSString, Weather>()
